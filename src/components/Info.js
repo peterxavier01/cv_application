@@ -1,12 +1,25 @@
+import { FaUserAlt } from "react-icons/fa";
+import { MdEmail, MdLocationOn } from "react-icons/md";
 const Info = () => {
-    return ( 
-        <div className="info">
-            <h1>Peter Uadiale</h1>
-            <h2>Frontend Developer</h2>
-            <p>Lagos, Nigeria</p>
-            <p>peteuadiale1@gmail.com</p>
+  return (
+    <div className="info mb-5">
+      <h1 className="pb-2">Peter Uadiale</h1>
+      <div className="info-items">
+        <div className="info-item">
+            <span>{<FaUserAlt />}</span>
+          <h5>Frontend Developer</h5>
         </div>
-     );
-}
- 
+        <div className="info-item">
+            <span>{<MdEmail />}</span>
+          <p>Lagos, Nigeria</p>
+        </div>
+        <div className="info-item">
+            <span>{<MdLocationOn />}</span>
+          <p>peteuadiale1@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default Info;

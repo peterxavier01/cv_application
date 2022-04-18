@@ -1,10 +1,10 @@
 const Edu = () => {
     return ( 
-        <div className="edu">
+        <div className="edu mb-5">
             <h1>Education</h1>
             <hr />
-            <h3>Bachelor's Degree in Electrical/Electronic Engineering</h3>
-            <p>University of Benin</p>
+            <h5>Bachelor's Degree in Electrical/Electronic Engineering</h5>
+            <p className="alumni">University of Benin</p>
             <p>September 2018 to Present</p>
         </div>
      );

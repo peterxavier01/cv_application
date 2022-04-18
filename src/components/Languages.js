@@ -5,8 +5,8 @@ const Languages = () => {
         <div className="languages">
             <h1>Languages</h1>
             <hr />
-            <ul>{languages.map((lang) => (
-                <li>{lang}</li> 
+            <ul>{languages.map((lang, index) => (
+                <li key={index}>{lang}</li> 
             ))}</ul>
         </div>
     );
