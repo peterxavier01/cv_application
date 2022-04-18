@@ -9,6 +9,8 @@ const Experience = () => {
     ]);
     return ( 
         <div className="experience">
+            <h1>Experience</h1>
+            <hr />
             {works.map((work) => (
                 <div className="work-container">
                     <h3>{work.title}</h3>
