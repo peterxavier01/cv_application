@@ -7,20 +7,24 @@ import Info from './Info';
 import Languages from './Languages';
 import Links from './Links';
 import Skills from './Skills';
+import Navbar from "./Navbar";
 
 const Cv = () => {
   return (
     <div className="container mt-3">
+      <div className="row mb-3">
+        <Navbar />
+      </div>
       <div className="row w-100">
           <Info />
       </div>
       <div className="row">
-        <div className="col-md-5">
+        <div className="col-md-6">
           <Edu />
           <Skills />
           <Links />
         </div>
-        <div className="col-md-7">
+        <div className="col-md-6">
           <Experience />
           <Cert />
           <Languages />

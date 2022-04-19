@@ -6,7 +6,7 @@ const Languages = () => {
             <h1>Languages</h1>
             <hr />
             <ul>{languages.map((lang, index) => (
-                <li key={index}>{lang}</li> 
+                <li key={index} className="mb-2">{lang}</li> 
             ))}</ul>
         </div>
     );

@@ -21,7 +21,7 @@ const Experience = () => {
 
   return (
     <div className="experience mb-5">
-      <h1>Experience</h1>
+      <h1>Work Experience</h1>
       <hr />
       {works.map((work) => (
         <div className="work-container">

@@ -3,7 +3,7 @@ import { MdEmail, MdLocationOn } from "react-icons/md";
 const Info = () => {
   return (
     <div className="info mb-5">
-      <h1 className="pb-2">Peter Uadiale</h1>
+      <h1 className="pb-2 d-md-block d-none">Peter Uadiale</h1>
       <div className="info-items">
         <div className="info-item">
             <span>{<FaUserAlt />}</span>
