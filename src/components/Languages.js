@@ -2,7 +2,7 @@ const Languages = () => {
     const languages = ["English - Fluent", "Spanish - Intermediate", "Japanese - Beginner"];
 
     return ( 
-        <div className="languages">
+        <div className="languages" id="languages">
             <h1>Languages</h1>
             <hr />
             <ul>{languages.map((lang, index) => (

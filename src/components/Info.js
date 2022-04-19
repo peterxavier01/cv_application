@@ -2,7 +2,7 @@ import { FaUserAlt } from "react-icons/fa";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 const Info = () => {
   return (
-    <div className="info mb-5">
+    <div className="info mb-5" id="info">
       <h1 className="pb-2 d-md-block d-none">Peter Uadiale</h1>
       <div className="info-items">
         <div className="info-item">

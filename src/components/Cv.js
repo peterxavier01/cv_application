@@ -11,7 +11,7 @@ import Navbar from "./Navbar";
 
 const Cv = () => {
   return (
-    <div className="container mt-3">
+    <div className="container mt-3 mb-3">
       <div className="row mb-3">
         <Navbar />
       </div>

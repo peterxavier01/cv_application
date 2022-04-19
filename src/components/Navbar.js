@@ -1,51 +1,25 @@
-const Navbar = () => {
+import { Navbar, Container, Nav } from "react-bootstrap";
+
+const Navigation = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light d-md-none container">
-      <a className="navbar-brand logo" href="/">
-        Peter Uadiale
-      </a>
-      <button
-        className="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item active">
-            <a className="nav-link" href="#edu">
-              Education <span className="sr-only">(current)</span>
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#skills">
-              Skills
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#experience">
-              Experience
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#cert">
-              Certifications
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="#languages">
-              Languages
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="d-md-none">
+      <Container>
+        <Navbar.Brand href="/" className="logo">Peter Uadiale</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#info">Personal Info</Nav.Link>
+            <Nav.Link href="#edu">Education</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#links">Links</Nav.Link>
+            <Nav.Link href="#experience">Work Experience</Nav.Link>
+            <Nav.Link href="#cert">Certifications</Nav.Link>
+            <Nav.Link href="#languages">Languages</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 };
 
-export default Navbar;
+export default Navigation;

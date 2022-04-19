@@ -7,7 +7,7 @@ const Cert = () => {
         { title: "Freecodecamp.org", year: "February 2022 to April 2022", id: 3, course: ["JavaScript Data Strutures and Algorithms."]}
     ]);
     return ( 
-        <div className="cert mb-5">
+        <div className="cert mb-5" id="cert">
             <h1>Certifications and Licenses</h1>
             <hr />
             {certs.map((cert) => (

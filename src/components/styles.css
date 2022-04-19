@@ -1,6 +1,6 @@
 .info {
     padding-top: 0;
-    margin-top: 0;
+    margin-top: 0em;
 }
 
 .info-items {
@@ -30,8 +30,11 @@
     .info-item {
         margin-bottom: .7em;
     }
-}
 
+    .info {
+        margin-top: 3em;
+    }    
+}
 
 .links {
     padding-top: 1em;
@@ -100,4 +103,12 @@ li {
 
 .logo {
     font-weight: 700;
+    color: #212529;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }

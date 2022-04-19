@@ -13,7 +13,7 @@ const Skills = () => {
     { title: "Git", id:11 }
   ];
   return (
-    <div className="skills mb-5">
+    <div className="skills mb-5" id="skills">
       <h1>Skills</h1>
       <hr />
       <ul className="skills-container">

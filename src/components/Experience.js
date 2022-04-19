@@ -20,7 +20,7 @@ const Experience = () => {
   ]);
 
   return (
-    <div className="experience mb-5">
+    <div className="experience mb-5" id="experience">
       <h1>Work Experience</h1>
       <hr />
       {works.map((work) => (

@@ -20,7 +20,7 @@ const Links = () => {
   ];
 
   return (
-    <div className="link mb-5">
+    <div className="link mb-5" id="links">
       <h1>Links</h1>
       <hr />
       <div className="links">
